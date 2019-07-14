@@ -1,0 +1,6 @@
+framework module Pods_TDD_and_dependency_injection_experimentTests {
+  umbrella header "Pods-TDD-and-dependency-injection-experimentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

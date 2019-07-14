@@ -1,0 +1,75 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Differentiator (4.0.1)
+  - Kingfisher (5.7.0)
+  - Nimble (8.0.2)
+  - Quick (2.1.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - Spry (3.2.3)
+  - "Spry+Nimble (3.2.3)":
+    - Nimble (> 7.0.0)
+    - Spry (= 3.2.3)
+  - SwiftyJSON (5.0.0)
+  - Swinject (2.6.2)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - Nimble
+  - Quick
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - Spry
+  - "Spry+Nimble"
+  - SwiftyJSON
+  - Swinject
+  - SwinjectStoryboard
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Differentiator
+    - Kingfisher
+    - Nimble
+    - Quick
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - Spry
+    - "Spry+Nimble"
+    - SwiftyJSON
+    - Swinject
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  Spry: 216a7f6566e6c7a0392f3f4b4e804e71d58e1835
+  "Spry+Nimble": 65b76e7d2dbe2d9166109ff44d8eea44a0bea94e
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Swinject: cf7458774b1b00323080a9c67e47a1ee7f9d2af1
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
+
+PODFILE CHECKSUM: f155ab73cf84004186f16526de5f854fde0928f1
+
+COCOAPODS: 1.7.4

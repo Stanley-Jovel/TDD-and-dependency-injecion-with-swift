@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-TDD-and-dependency-injection-experimentTests/Pods-TDD-and-dependency-injection-experimentTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework
+${BUILT_PRODUCTS_DIR}/Quick/Quick.framework
+${BUILT_PRODUCTS_DIR}/Spry/Spry.framework
+${BUILT_PRODUCTS_DIR}/Spry+Nimble/Spry_Nimble.framework

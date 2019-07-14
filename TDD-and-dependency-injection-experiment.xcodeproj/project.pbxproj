@@ -3,16 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D033E9939FE74808EF422A03 /* Pods_TDD_and_dependency_injection_experimentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993341F0BEC72C2B2862CDB2 /* Pods_TDD_and_dependency_injection_experimentTests.framework */; };
+		DC9E938BCF89A36CDF1AC227 /* Pods_TDD_and_dependency_injection_experiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBBE0471B92C1AFCE196F5F /* Pods_TDD_and_dependency_injection_experiment.framework */; };
 		F66D652D22DAB0CA009B5CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D652C22DAB0CA009B5CC4 /* AppDelegate.swift */; };
-		F66D652F22DAB0CA009B5CC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D652E22DAB0CA009B5CC4 /* ViewController.swift */; };
+		F66D652F22DAB0CA009B5CC4 /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D652E22DAB0CA009B5CC4 /* PokemonListViewController.swift */; };
 		F66D653222DAB0CA009B5CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D653022DAB0CA009B5CC4 /* Main.storyboard */; };
 		F66D653422DAB0CB009B5CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66D653322DAB0CB009B5CC4 /* Assets.xcassets */; };
 		F66D653722DAB0CB009B5CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D653522DAB0CB009B5CC4 /* LaunchScreen.storyboard */; };
-		F66D654222DAB0CB009B5CC4 /* TDD_and_dependency_injection_experimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D654122DAB0CB009B5CC4 /* TDD_and_dependency_injection_experimentTests.swift */; };
+		F66D654D22DAB328009B5CC4 /* PokemonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D654C22DAB328009B5CC4 /* PokemonDetailsViewController.swift */; };
+		F66D654F22DAB367009B5CC4 /* ApiWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D654E22DAB367009B5CC4 /* ApiWrapper.swift */; };
+		F66D655122DAB370009B5CC4 /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D655022DAB36F009B5CC4 /* SwinjectStoryboard.swift */; };
+		F66D655322DAB378009B5CC4 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D655222DAB378009B5CC4 /* PlaceholderView.swift */; };
+		F66D655522DAB381009B5CC4 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D655422DAB381009B5CC4 /* Pokemon.swift */; };
+		F66D655922DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D655622DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift */; };
+		F66D655A22DAB39D009B5CC4 /* Fakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D655722DAB39D009B5CC4 /* Fakes.swift */; };
+		F66D655B22DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D655822DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +35,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15C6A041EDD6760DE34F5A62 /* Pods-TDD-and-dependency-injection-experiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD-and-dependency-injection-experiment.release.xcconfig"; path = "Target Support Files/Pods-TDD-and-dependency-injection-experiment/Pods-TDD-and-dependency-injection-experiment.release.xcconfig"; sourceTree = "<group>"; };
+		5FBBE0471B92C1AFCE196F5F /* Pods_TDD_and_dependency_injection_experiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDD_and_dependency_injection_experiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF010BC00FA1C3AB747A5CA /* Pods-TDD-and-dependency-injection-experimentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD-and-dependency-injection-experimentTests.debug.xcconfig"; path = "Target Support Files/Pods-TDD-and-dependency-injection-experimentTests/Pods-TDD-and-dependency-injection-experimentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		993341F0BEC72C2B2862CDB2 /* Pods_TDD_and_dependency_injection_experimentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDD_and_dependency_injection_experimentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9A4556F126207B7CF146E7 /* Pods-TDD-and-dependency-injection-experimentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD-and-dependency-injection-experimentTests.release.xcconfig"; path = "Target Support Files/Pods-TDD-and-dependency-injection-experimentTests/Pods-TDD-and-dependency-injection-experimentTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2D425491EC00F1FEE1C9760 /* Pods-TDD-and-dependency-injection-experiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD-and-dependency-injection-experiment.debug.xcconfig"; path = "Target Support Files/Pods-TDD-and-dependency-injection-experiment/Pods-TDD-and-dependency-injection-experiment.debug.xcconfig"; sourceTree = "<group>"; };
 		F66D652922DAB0CA009B5CC4 /* TDD-and-dependency-injection-experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDD-and-dependency-injection-experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66D652C22DAB0CA009B5CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F66D652E22DAB0CA009B5CC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F66D652E22DAB0CA009B5CC4 /* PokemonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
 		F66D653122DAB0CA009B5CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F66D653322DAB0CB009B5CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F66D653622DAB0CB009B5CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F66D653822DAB0CB009B5CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F66D653D22DAB0CB009B5CC4 /* TDD-and-dependency-injection-experimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD-and-dependency-injection-experimentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F66D654122DAB0CB009B5CC4 /* TDD_and_dependency_injection_experimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_and_dependency_injection_experimentTests.swift; sourceTree = "<group>"; };
 		F66D654322DAB0CB009B5CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66D654C22DAB328009B5CC4 /* PokemonDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailsViewController.swift; sourceTree = "<group>"; };
+		F66D654E22DAB367009B5CC4 /* ApiWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiWrapper.swift; sourceTree = "<group>"; };
+		F66D655022DAB36F009B5CC4 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboard.swift; sourceTree = "<group>"; };
+		F66D655222DAB378009B5CC4 /* PlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		F66D655422DAB381009B5CC4 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		F66D655622DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonListViewControllerSpec.swift; sourceTree = "<group>"; };
+		F66D655722DAB39D009B5CC4 /* Fakes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fakes.swift; sourceTree = "<group>"; };
+		F66D655822DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboardSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9E938BCF89A36CDF1AC227 /* Pods_TDD_and_dependency_injection_experiment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +73,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D033E9939FE74808EF422A03 /* Pods_TDD_and_dependency_injection_experimentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340B9CBC1F195887C08B15E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2D425491EC00F1FEE1C9760 /* Pods-TDD-and-dependency-injection-experiment.debug.xcconfig */,
+				15C6A041EDD6760DE34F5A62 /* Pods-TDD-and-dependency-injection-experiment.release.xcconfig */,
+				7AF010BC00FA1C3AB747A5CA /* Pods-TDD-and-dependency-injection-experimentTests.debug.xcconfig */,
+				CF9A4556F126207B7CF146E7 /* Pods-TDD-and-dependency-injection-experimentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52C38C3BB367248BCC950A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FBBE0471B92C1AFCE196F5F /* Pods_TDD_and_dependency_injection_experiment.framework */,
+				993341F0BEC72C2B2862CDB2 /* Pods_TDD_and_dependency_injection_experimentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F66D652022DAB0CA009B5CC4 = {
 			isa = PBXGroup;
 			children = (
 				F66D652B22DAB0CA009B5CC4 /* TDD-and-dependency-injection-experiment */,
 				F66D654022DAB0CB009B5CC4 /* TDD-and-dependency-injection-experimentTests */,
 				F66D652A22DAB0CA009B5CC4 /* Products */,
+				340B9CBC1F195887C08B15E3 /* Pods */,
+				52C38C3BB367248BCC950A58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +124,16 @@
 			isa = PBXGroup;
 			children = (
 				F66D652C22DAB0CA009B5CC4 /* AppDelegate.swift */,
-				F66D652E22DAB0CA009B5CC4 /* ViewController.swift */,
+				F66D652E22DAB0CA009B5CC4 /* PokemonListViewController.swift */,
 				F66D653022DAB0CA009B5CC4 /* Main.storyboard */,
+				F66D654E22DAB367009B5CC4 /* ApiWrapper.swift */,
+				F66D654C22DAB328009B5CC4 /* PokemonDetailsViewController.swift */,
+				F66D655022DAB36F009B5CC4 /* SwinjectStoryboard.swift */,
 				F66D653322DAB0CB009B5CC4 /* Assets.xcassets */,
 				F66D653522DAB0CB009B5CC4 /* LaunchScreen.storyboard */,
+				F66D655222DAB378009B5CC4 /* PlaceholderView.swift */,
 				F66D653822DAB0CB009B5CC4 /* Info.plist */,
+				F66D655422DAB381009B5CC4 /* Pokemon.swift */,
 			);
 			path = "TDD-and-dependency-injection-experiment";
 			sourceTree = "<group>";
@@ -90,8 +141,10 @@
 		F66D654022DAB0CB009B5CC4 /* TDD-and-dependency-injection-experimentTests */ = {
 			isa = PBXGroup;
 			children = (
-				F66D654122DAB0CB009B5CC4 /* TDD_and_dependency_injection_experimentTests.swift */,
 				F66D654322DAB0CB009B5CC4 /* Info.plist */,
+				F66D655722DAB39D009B5CC4 /* Fakes.swift */,
+				F66D655822DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift */,
+				F66D655622DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift */,
 			);
 			path = "TDD-and-dependency-injection-experimentTests";
 			sourceTree = "<group>";
@@ -103,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F66D654622DAB0CB009B5CC4 /* Build configuration list for PBXNativeTarget "TDD-and-dependency-injection-experiment" */;
 			buildPhases = (
+				8682F853E1FE2E4D3FDF88F6 /* [CP] Check Pods Manifest.lock */,
 				F66D652522DAB0CA009B5CC4 /* Sources */,
 				F66D652622DAB0CA009B5CC4 /* Frameworks */,
 				F66D652722DAB0CA009B5CC4 /* Resources */,
+				47B94810C27CD777F3F74A55 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F66D654922DAB0CB009B5CC4 /* Build configuration list for PBXNativeTarget "TDD-and-dependency-injection-experimentTests" */;
 			buildPhases = (
+				F0F0B79D74D549939D29EB14 /* [CP] Check Pods Manifest.lock */,
 				F66D653922DAB0CB009B5CC4 /* Sources */,
 				F66D653A22DAB0CB009B5CC4 /* Frameworks */,
 				F66D653B22DAB0CB009B5CC4 /* Resources */,
+				77442D5BA35CBC0F79252073 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +206,7 @@
 					};
 					F66D653C22DAB0CB009B5CC4 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = F66D652822DAB0CA009B5CC4;
 					};
 				};
@@ -192,13 +250,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47B94810C27CD777F3F74A55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDD-and-dependency-injection-experiment/Pods-TDD-and-dependency-injection-experiment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDD-and-dependency-injection-experiment/Pods-TDD-and-dependency-injection-experiment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TDD-and-dependency-injection-experiment/Pods-TDD-and-dependency-injection-experiment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77442D5BA35CBC0F79252073 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDD-and-dependency-injection-experimentTests/Pods-TDD-and-dependency-injection-experimentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDD-and-dependency-injection-experimentTests/Pods-TDD-and-dependency-injection-experimentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TDD-and-dependency-injection-experimentTests/Pods-TDD-and-dependency-injection-experimentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8682F853E1FE2E4D3FDF88F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDD-and-dependency-injection-experiment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0F0B79D74D549939D29EB14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDD-and-dependency-injection-experimentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F66D652522DAB0CA009B5CC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F66D652F22DAB0CA009B5CC4 /* ViewController.swift in Sources */,
+				F66D655522DAB381009B5CC4 /* Pokemon.swift in Sources */,
+				F66D652F22DAB0CA009B5CC4 /* PokemonListViewController.swift in Sources */,
 				F66D652D22DAB0CA009B5CC4 /* AppDelegate.swift in Sources */,
+				F66D655322DAB378009B5CC4 /* PlaceholderView.swift in Sources */,
+				F66D654F22DAB367009B5CC4 /* ApiWrapper.swift in Sources */,
+				F66D655122DAB370009B5CC4 /* SwinjectStoryboard.swift in Sources */,
+				F66D654D22DAB328009B5CC4 /* PokemonDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +350,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F66D654222DAB0CB009B5CC4 /* TDD_and_dependency_injection_experimentTests.swift in Sources */,
+				F66D655A22DAB39D009B5CC4 /* Fakes.swift in Sources */,
+				F66D655922DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift in Sources */,
+				F66D655B22DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +504,7 @@
 		};
 		F66D654722DAB0CB009B5CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D425491EC00F1FEE1C9760 /* Pods-TDD-and-dependency-injection-experiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +522,7 @@
 		};
 		F66D654822DAB0CB009B5CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C6A041EDD6760DE34F5A62 /* Pods-TDD-and-dependency-injection-experiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,9 +540,11 @@
 		};
 		F66D654A22DAB0CB009B5CC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF010BC00FA1C3AB747A5CA /* Pods-TDD-and-dependency-injection-experimentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TDD-and-dependency-injection-experimentTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +554,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stanleyjovel.TDD-and-dependency-injection-experimentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDD-and-dependency-injection-experiment.app/TDD-and-dependency-injection-experiment";
@@ -412,9 +563,11 @@
 		};
 		F66D654B22DAB0CB009B5CC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9A4556F126207B7CF146E7 /* Pods-TDD-and-dependency-injection-experimentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TDD-and-dependency-injection-experimentTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
