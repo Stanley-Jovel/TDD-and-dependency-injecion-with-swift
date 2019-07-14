@@ -30,20 +30,20 @@ class PokemonDetailsViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+        
     if let pokemon = pokemon {
-      pokemonNameLabel.text = pokemon.name
+      pokemonNameLabel.text = pokemon.name?.capitalized
       apiWrapper?.getPokemonWith(id: pokemon.name!).subscribe(
         onSuccess: { pokemon in
           self.pokemonImageView.kf.setImage(
-            with: URL(string: pokemon["sprites"]["front_default"].string!),
+            with: URL(string: pokemon.sprite!),
             placeholder: self.activityIndicator as! PlaceholderView
           )
           
           let dataSource = RxTableViewSectionedReloadDataSource<SectionOfPokemonDetails>(
             configureCell: { dataSource, tableView, indexPath, item in
               let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-              cell.textLabel?.text = item
+              cell.textLabel?.text = item.capitalized
               
               return cell
             }
@@ -53,31 +53,10 @@ class PokemonDetailsViewController: UIViewController {
             return dataSource.sectionModels[index].header
           }
           
-          let types = pokemon["types"].map({ pair in
-            let (_, type) = pair
-            let name = type["type"]["name"].string!
-            
-            return name
-          } as ((String, JSON)) -> String)
-          
-          let abilities = pokemon["abilities"].map({ pair in
-            let (_, ability) = pair
-            let name = ability["ability"]["name"].string!
-            
-            return name
-          } as ((String, JSON)) -> String)
-          
-          let moves = pokemon["moves"].map({ pair in
-            let (_, move) = pair
-            let name = move["move"]["name"].string!
-            
-            return name
-          } as ((String, JSON)) -> String)
-          
           let sections = [
-            SectionOfPokemonDetails(header: "Types", items: types),
-            SectionOfPokemonDetails(header: "Abilities", items: abilities),
-            SectionOfPokemonDetails(header: "Moves", items: moves),
+            SectionOfPokemonDetails(header: "Types", items: pokemon.types ?? []),
+            SectionOfPokemonDetails(header: "Abilities", items: pokemon.abilities ?? []),
+            SectionOfPokemonDetails(header: "Moves", items: pokemon.moves ?? []),
           ]
           
           Observable.just(sections)

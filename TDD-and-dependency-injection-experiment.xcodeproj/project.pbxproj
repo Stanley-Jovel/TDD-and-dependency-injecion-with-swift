@@ -22,6 +22,7 @@
 		F66D655922DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D655622DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift */; };
 		F66D655A22DAB39D009B5CC4 /* Fakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D655722DAB39D009B5CC4 /* Fakes.swift */; };
 		F66D655B22DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D655822DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift */; };
+		F66D655D22DB8DB6009B5CC4 /* PokemonSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D655C22DB8DB6009B5CC4 /* PokemonSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		F66D655622DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonListViewControllerSpec.swift; sourceTree = "<group>"; };
 		F66D655722DAB39D009B5CC4 /* Fakes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fakes.swift; sourceTree = "<group>"; };
 		F66D655822DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwinjectStoryboardSpec.swift; sourceTree = "<group>"; };
+		F66D655C22DB8DB6009B5CC4 /* PokemonSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,14 +125,12 @@
 		F66D652B22DAB0CA009B5CC4 /* TDD-and-dependency-injection-experiment */ = {
 			isa = PBXGroup;
 			children = (
-				F66D652C22DAB0CA009B5CC4 /* AppDelegate.swift */,
+				F66D655E22DBA8BD009B5CC4 /* Support Files */,
 				F66D652E22DAB0CA009B5CC4 /* PokemonListViewController.swift */,
 				F66D653022DAB0CA009B5CC4 /* Main.storyboard */,
 				F66D654E22DAB367009B5CC4 /* ApiWrapper.swift */,
 				F66D654C22DAB328009B5CC4 /* PokemonDetailsViewController.swift */,
 				F66D655022DAB36F009B5CC4 /* SwinjectStoryboard.swift */,
-				F66D653322DAB0CB009B5CC4 /* Assets.xcassets */,
-				F66D653522DAB0CB009B5CC4 /* LaunchScreen.storyboard */,
 				F66D655222DAB378009B5CC4 /* PlaceholderView.swift */,
 				F66D653822DAB0CB009B5CC4 /* Info.plist */,
 				F66D655422DAB381009B5CC4 /* Pokemon.swift */,
@@ -145,8 +145,19 @@
 				F66D655722DAB39D009B5CC4 /* Fakes.swift */,
 				F66D655822DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift */,
 				F66D655622DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift */,
+				F66D655C22DB8DB6009B5CC4 /* PokemonSpec.swift */,
 			);
 			path = "TDD-and-dependency-injection-experimentTests";
+			sourceTree = "<group>";
+		};
+		F66D655E22DBA8BD009B5CC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66D653322DAB0CB009B5CC4 /* Assets.xcassets */,
+				F66D652C22DAB0CA009B5CC4 /* AppDelegate.swift */,
+				F66D653522DAB0CB009B5CC4 /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F66D655D22DB8DB6009B5CC4 /* PokemonSpec.swift in Sources */,
 				F66D655A22DAB39D009B5CC4 /* Fakes.swift in Sources */,
 				F66D655922DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift in Sources */,
 				F66D655B22DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift in Sources */,

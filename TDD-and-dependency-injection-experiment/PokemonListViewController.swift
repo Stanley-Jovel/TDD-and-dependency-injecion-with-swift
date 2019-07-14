@@ -14,7 +14,7 @@ class PokemonListViewController: UIViewController {
     
     apiWrapper?.getAllPokemons()
       .bind(to: tableView.rx.items(cellIdentifier: "Cell", cellType: UITableViewCell.self)) { (row, pokemon, cell) in
-        cell.textLabel?.text = pokemon.name
+        cell.textLabel?.text = pokemon.name?.capitalized
       }
       .disposed(by: disposeBag)
     

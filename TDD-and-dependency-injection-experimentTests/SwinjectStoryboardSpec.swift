@@ -9,7 +9,7 @@ import SwiftyJSON
 var apiWrapper = FakeApiWrapper()
 extension SwinjectStoryboard {
   @objc class func setup() {
-    apiWrapper.stub(.getAllPokemons).andReturn(Observable<JSON>.empty())
+    apiWrapper.stub(.getAllPokemons).andReturn(Observable<[Pokemon]>.empty())
     
     defaultContainer.storyboardInitCompleted(PokemonListViewController.self, initCompleted: {(r, vc) in
       vc.apiWrapper = apiWrapper

@@ -14,7 +14,7 @@ class FakeApiWrapper: ApiWrapper, Spryable {
         case getAllPokemons = "getAllPokemons()"
     }
     
-  override func getAllPokemons() -> Observable<JSON> {
+  override func getAllPokemons() -> Observable<[Pokemon]> {
         return spryify()
     }
 }

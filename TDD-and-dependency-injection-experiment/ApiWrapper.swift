@@ -39,7 +39,7 @@ class ApiWrapper {
     return genericGetRequest(url).map { json in
       if let results = json["results"].array {
         return results.map({ result in
-          return Pokemon(name: result["name"].string)
+          return Pokemon(json: result)
         })
       } else {
         return []
@@ -47,8 +47,8 @@ class ApiWrapper {
     }
   }
   
-  func getPokemonWith(id pokemonId: String) -> Single<JSON> {
+  func getPokemonWith(id pokemonId: String) -> Single<Pokemon> {
     let url = URL(string: "\(apiRoot)/pokemon/\(pokemonId)")!
-    return genericGetRequest(url).asSingle()
+    return genericGetRequest(url).map { Pokemon(json: $0) }.asSingle()
   }
 }
