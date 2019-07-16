@@ -13,10 +13,11 @@ That's why this app features:
 
 # Requirements
 
-You'll need Swift 5 and Cocoapods
+In order to compile you'll need Swift 5 and Cocoapods
 
 # Demo
 
 The app is a Pokedex with a list of pokemon, if you tap a pokemon you get their details: name, sprite, moves, types, and abilities
 
-![image](https://user-images.githubusercontent.com/1679438/61298872-3bb58780-a79c-11e9-876c-d0795bd32be6.png)
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/1679438/61300137-a5cf2c00-a79e-11e9-85d6-e1c313ea62f0.gif)
+
