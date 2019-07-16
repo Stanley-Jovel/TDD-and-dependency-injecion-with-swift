@@ -1,11 +1,3 @@
-//
-//  PokemonSpec.swift
-//  TDD-and-dependency-injection-experimentTests
-//
-//  Created by Luis Stanley Jovel on 7/14/19.
-//  Copyright © 2019 stanley jovel. All rights reserved.
-//
-
 import Foundation
 import Quick
 import SwiftyJSON

@@ -72,7 +72,7 @@
         <!--Pokemon Details View Controller-->
         <scene sceneID="UbW-pm-pme">
             <objects>
-                <viewController id="6e2-zX-noD" customClass="PokemonDetailsViewController" customModule="Custom_Assigment_7" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PokemonDetailsViewController" id="6e2-zX-noD" customClass="PokemonDetailsViewController" customModule="TDD_and_dependency_injection_experiment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hrj-Yq-mRN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ZL-Cf-62a">
                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                             </imageView>
-                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="MOl-D8-3re" customClass="PlaceholderView" customModule="Custom_Assigment_7" customModuleProvider="target">
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="MOl-D8-3re" customClass="PlaceholderView" customModule="TDD_and_dependency_injection_experiment" customModuleProvider="target">
                                                 <rect key="frame" x="40" y="40" width="20" height="20"/>
                                             </activityIndicatorView>
                                         </subviews>

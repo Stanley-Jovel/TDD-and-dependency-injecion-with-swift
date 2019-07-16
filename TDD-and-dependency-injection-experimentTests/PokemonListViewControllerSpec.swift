@@ -7,9 +7,9 @@ import SwiftyJSON
 
 @testable import TDD_and_dependency_injection_experiment
 
-class ViewControllerSpec: QuickSpec {
+class PokemonListViewControllerSpec: QuickSpec {
   override func spec() {
-    describe("ViewController") {
+    describe("PokemonListViewController") {
       var subject: PokemonListViewController!
       
       beforeEach {
@@ -17,7 +17,6 @@ class ViewControllerSpec: QuickSpec {
         subject = (storyboard.instantiateViewController(withIdentifier: "PokemonListViewController") as! PokemonListViewController)
         subject.loadView()
         apiWrapper.resetCalls()
-        print("stop")
       }
       
       describe("viewDidLoad") {

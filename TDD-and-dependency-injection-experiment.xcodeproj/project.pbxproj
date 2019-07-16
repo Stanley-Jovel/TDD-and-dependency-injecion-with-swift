@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D033E9939FE74808EF422A03 /* Pods_TDD_and_dependency_injection_experimentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993341F0BEC72C2B2862CDB2 /* Pods_TDD_and_dependency_injection_experimentTests.framework */; };
 		DC9E938BCF89A36CDF1AC227 /* Pods_TDD_and_dependency_injection_experiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBBE0471B92C1AFCE196F5F /* Pods_TDD_and_dependency_injection_experiment.framework */; };
+		F65CC30A22DDFE4200BED997 /* PokemonDetailsViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65CC30922DDFE4200BED997 /* PokemonDetailsViewControllerSpec.swift */; };
 		F66D652D22DAB0CA009B5CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D652C22DAB0CA009B5CC4 /* AppDelegate.swift */; };
 		F66D652F22DAB0CA009B5CC4 /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D652E22DAB0CA009B5CC4 /* PokemonListViewController.swift */; };
 		F66D653222DAB0CA009B5CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66D653022DAB0CA009B5CC4 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		993341F0BEC72C2B2862CDB2 /* Pods_TDD_and_dependency_injection_experimentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDD_and_dependency_injection_experimentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9A4556F126207B7CF146E7 /* Pods-TDD-and-dependency-injection-experimentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD-and-dependency-injection-experimentTests.release.xcconfig"; path = "Target Support Files/Pods-TDD-and-dependency-injection-experimentTests/Pods-TDD-and-dependency-injection-experimentTests.release.xcconfig"; sourceTree = "<group>"; };
 		F2D425491EC00F1FEE1C9760 /* Pods-TDD-and-dependency-injection-experiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD-and-dependency-injection-experiment.debug.xcconfig"; path = "Target Support Files/Pods-TDD-and-dependency-injection-experiment/Pods-TDD-and-dependency-injection-experiment.debug.xcconfig"; sourceTree = "<group>"; };
+		F65CC30922DDFE4200BED997 /* PokemonDetailsViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailsViewControllerSpec.swift; sourceTree = "<group>"; };
 		F66D652922DAB0CA009B5CC4 /* TDD-and-dependency-injection-experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDD-and-dependency-injection-experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66D652C22DAB0CA009B5CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66D652E22DAB0CA009B5CC4 /* PokemonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			children = (
 				F66D654322DAB0CB009B5CC4 /* Info.plist */,
 				F66D655722DAB39D009B5CC4 /* Fakes.swift */,
+				F65CC30922DDFE4200BED997 /* PokemonDetailsViewControllerSpec.swift */,
 				F66D655822DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift */,
 				F66D655622DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift */,
 				F66D655C22DB8DB6009B5CC4 /* PokemonSpec.swift */,
@@ -365,6 +368,7 @@
 				F66D655A22DAB39D009B5CC4 /* Fakes.swift in Sources */,
 				F66D655922DAB39D009B5CC4 /* PokemonListViewControllerSpec.swift in Sources */,
 				F66D655B22DAB39D009B5CC4 /* SwinjectStoryboardSpec.swift in Sources */,
+				F65CC30A22DDFE4200BED997 /* PokemonDetailsViewControllerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

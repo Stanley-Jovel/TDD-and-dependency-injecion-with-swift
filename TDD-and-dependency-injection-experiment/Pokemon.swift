@@ -1,11 +1,3 @@
-//
-//  Pokemon.swift
-//  Custom Assigment 7
-//
-//  Created by Stanley on 6/28/19.
-//  Copyright © 2019 Stanley. All rights reserved.
-//
-
 import Foundation
 import SwiftyJSON
 
