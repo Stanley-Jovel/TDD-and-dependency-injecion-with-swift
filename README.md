@@ -1,4 +1,4 @@
-# TDD and dependency injecion experiment
+# TDD and dependency injection experiment
 
 My goal when creating this project was to go beyond the tutorials and courses for learning iOS development. Usually, these courses don't go too far and don't get deep enough regarding technologies used in a real-world enterprise app. 
 
